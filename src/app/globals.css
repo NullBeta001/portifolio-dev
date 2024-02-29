@@ -30,3 +30,36 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Estilo para o rastreamento da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #b0b0b0;
+}
+
+/* Estilo para o botão da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 5px;
+}
+
+/* Estilo para o botão quando hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2e2e2e;
+}
+
+/* Oculta a barra de rolagem quando não estiver em hover */
+::-webkit-scrollbar-thumb {
+  opacity: 0;
+  /* Torna a barra de rolagem transparente */
+}
+
+/* Estilo para a barra de rolagem quando hover */
+::-webkit-scrollbar:hover {
+  opacity: 1;
+  /* Torna a barra de rolagem visível quando hover */
+}
