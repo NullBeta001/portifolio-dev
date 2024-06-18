@@ -43,7 +43,7 @@ body {
 
 /* Estilo para o botão da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-  background: #575757;
+  background: #414141;
   border-radius: 5px;
 }
 
