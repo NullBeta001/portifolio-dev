@@ -1,6 +1,7 @@
 'use client'
 
 import About from '@/components/About';
+import Experience from '@/components/experiences';
 import { Tooltip } from 'antd';
 import { CaretDoubleDown, DiscordLogo, Envelope, GithubLogo, LinkedinLogo, RedditLogo } from 'phosphor-react';
 import React from 'react';
@@ -84,9 +85,6 @@ export default function Home() {
             <Tooltip title="E-Mail">
               <Envelope className={iconStyle} size={40} color="#ffffff" weight="light" onClick={() => handleClick(3)} />
             </Tooltip>
-            <Tooltip title="Reddit">
-              <RedditLogo className={iconStyle} size={40} color="#ffffff" weight="light" onClick={() => handleClick(4)} />
-            </Tooltip>
             <Tooltip title="GitHub">
               <GithubLogo className={iconStyle} size={40} color="#ffffff" weight="light" onClick={() => handleClick(5)} />
             </Tooltip>
@@ -100,9 +98,9 @@ export default function Home() {
         </div>
       </div>
       <div className="next-section">
-        <div className="border-[1px] border-stone-100 w-full">
-          <div className="h-[100vh]">
-            Aqui
+        <div className="w-full">
+          <div className="h-[100vh] flex justify-center">
+            <Experience />
           </div>
         </div>
       </div>
